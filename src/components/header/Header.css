@@ -1,0 +1,398 @@
+.Container {
+  width: 100vw;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Head {
+  width: 75vw;
+  height: 80px;
+  min-width: 1100px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  /* overflow: hidden; */
+}
+
+.AlignSign {
+  display: flex;
+  width: 37.5vw;
+  min-width: 550px;
+  margin-top: 5px;
+  height: 20px;
+}
+
+.Log {
+  border-right: 1px solid;
+  padding-right: 5px;
+  margin-left: 20px;
+  height: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Log:hover {
+  animation: changeColor 0.5s;
+  color: #31beff;
+}
+
+.Sign {
+  padding-left: 5px;
+  height: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sign:hover {
+  animation: changeColor 0.5s;
+  color: #31beff;
+}
+
+.Log .Key {
+  rotate: 90deg;
+}
+
+.TopHead {
+  display: flex;
+}
+
+.Input {
+  width: 37.5vw;
+  min-width: 550px;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  padding-right: 30px;
+}
+
+.Input input {
+  width: 200px;
+  border-radius: 20px;
+  height: 35px;
+  padding: 5px;
+  padding-left: 20px;
+  border: 1px solid rgb(158, 158, 158);
+}
+
+.Input input:focus {
+  outline: none;
+}
+
+.Search {
+  position: absolute;
+  font-size: 25px;
+  top: 5px;
+  right: 40px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.Follow {
+  cursor: pointer;
+  position: relative;
+}
+
+.Follow:hover {
+  animation: changeColor 0.5s;
+  color: #31beff;
+  .HoverFollow {
+    display: flex;
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    color: black;
+  }
+  100% {
+    color: #31beff;
+  }
+}
+
+.HoverFollow {
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px black;
+  z-index: 2;
+  background-color: #ffffff;
+  border-radius: 8px;
+  cursor: auto;
+  display: none;
+}
+
+.HoverFollow input {
+  width: 370px;
+  height: 50px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.162);
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.HoverFollow input:hover {
+  box-shadow: 3px 3px 7px #58b0da;
+}
+
+.HoverFollow input:focus {
+  outline: none;
+  box-shadow: 3px 3px 7px #58b0da;
+}
+
+.HoverFollow .Text {
+  color: rgba(0, 0, 0, 0.527);
+}
+
+.HoverFollow .Text a {
+  color: #58b0da;
+  text-decoration: none;
+}
+
+.HoverFollow .Text a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.HoverFollow button {
+  width: 150px;
+  height: 45px;
+  margin-top: 25px;
+  background-color: black;
+  color: #ffffff;
+  font-size: 1.3rem;
+  border-radius: 6px;
+  cursor: pointer;
+  border-style: none;
+}
+
+.HoverFollow button:hover {
+  background-color: #58b0da;
+}
+
+.Point {
+  rotate: 90deg;
+}
+
+.Triangle {
+  font-size: 8px;
+  color: red;
+}
+
+.UnderHead {
+  width: 37.5vw;
+  min-width: 550px;
+  display: flex;
+  margin-left: 45px;
+}
+
+.Guarantee {
+  margin-top: 2px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.Guarantee:hover {
+  animation: changeColor 0.5s;
+  color: #31beff;
+}
+
+.Information {
+  width: 75vw;
+  height: 95px;
+  min-width: 1100px;
+  display: flex;
+  justify-content: end;
+}
+
+.Align {
+  width: 37.5vw;
+  min-width: 550px;
+  height: 95px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.Phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Phone img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.Phone a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+.Cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cart img {
+  width: 40px;
+  height: 40px;
+}
+
+.Cart .Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.Cart .Text h1 {
+  font-size: 20px;
+  color: #58b0da;
+}
+
+.Cart > .Text > .Link {
+  text-decoration: none;
+  color: black;
+}
+
+.Nav {
+  width: 75vw;
+  height: auto;
+  margin-bottom: 15px;
+  min-width: 1100px;
+  border-bottom: 1px solid black;
+}
+
+.NavTemp1 {
+  width: 75vw;
+  height: 60px;
+  min-width: 1100px;
+  display: flex;
+  color: white;
+  background-color: black;
+}
+
+.NavTemp2 {
+  width: 100vw;
+  height: 70px;
+  min-width: 1100px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  color: white;
+  background-color: black;
+  z-index: 4;
+}
+
+.IconHome {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+
+.NavTemp2 .IconHome {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.IconHome:hover {
+  background: #58b0da;
+}
+
+.Home {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.point-list {
+  width: 110px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.NavTemp2 .point-list {
+  width: 120px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.point-list:hover {
+  background: #58b0da;
+}
+
+.point-list:hover > .hover-list {
+  display: block;
+}
+
+.Content {
+  font-size: 1.2rem;
+}
+
+.Content .Triangle {
+  color: white;
+}
+
+.hover-list {
+  width: 250px;
+  display: none;
+  position: absolute;
+  height: auto;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.281);
+  color: black;
+  list-style: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.294);
+  z-index: 3;
+  border-radius: 3px;
+}
+
+.hover-list li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.072);
+  height: 60px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+}
+
+.hover-list li:hover {
+  color: #58b0da;
+}

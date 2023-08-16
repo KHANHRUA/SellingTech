@@ -1,0 +1,286 @@
+{
+  "type": [
+    {
+      "name": "MÁY BAY CÁNH BẰNG",
+      "children": [
+        {
+          "name": "Máy bay cho người mới tập chơi"
+        },
+        {
+          "name": "Máy bay 3D"
+        },
+        {
+          "name": "Máy bay dành cho FPV"
+        },
+        {
+          "name": "Máy bay phản lực"
+        },
+        {
+          "name": "Tàu lượn"
+        },
+        {
+          "name": "Warbirds(AT6,Zero,F4u,Spritfire)"
+        },
+        {
+          "name": "Phụ kiện máy bay cánh bằng"
+        }
+      ]
+    },
+    {
+      "name": "MÁY BAY 4 CÁNH, 6 CÁNH",
+      "children": [
+        {
+          "name": "PNP/BNF/RTF drone"
+        },
+        {
+          "name": "Frame kit"
+        },
+        {
+          "name": "Frame part"
+        },
+        {
+          "name": "Motor"
+        },
+        {
+          "name": "ESC"
+        },
+        {
+          "name": "Cánh quạt thuận nghịch"
+        },
+        {
+          "name": "Mạch bay multi"
+        },
+        {
+          "name": "Phụ kiện multicopter"
+        }
+      ]
+    },
+    {
+      "name": "TÀU THUYỀN",
+      "children": [
+        {
+          "name": "Tàu chạy điện"
+        },
+        {
+          "name": "Phụ kiện tàu thuyền"
+        }
+      ]
+    },
+    {
+      "name": "TOYS",
+      "children": [
+        {
+          "name": "V911"
+        },
+        {
+          "name": "X5C"
+        }
+      ]
+    },
+    {
+      "name": "ELECTRIC MOTORS",
+      "children": [
+        {
+          "name": "Outrunner motors"
+        },
+        {
+          "name": "Inrunner motors"
+        },
+        {
+          "name": "EDF motors"
+        },
+        {
+          "name": "Motor parts"
+        }
+      ]
+    },
+    {
+      "name": "ESCS AND UBECS",
+      "children": [
+        {
+          "name": "Under 20Amps"
+        },
+        {
+          "name": "20 to 29Amps"
+        },
+        {
+          "name": "30 to 39Amps"
+        },
+        {
+          "name": "Above 70Amps"
+        },
+        {
+          "name": "Car ESCs"
+        },
+        {
+          "name": "UBECS"
+        },
+        {
+          "name": "40 to 70Amps"
+        },
+        {
+          "name": "Programming cards"
+        }
+      ]
+    },
+    {
+      "name": "SERVO VÀ PHỤ KIỆN",
+      "children": [
+        {
+          "name": "Micro servos"
+        },
+        {
+          "name": "Mini servo"
+        },
+        {
+          "name": "Standard servo"
+        },
+        {
+          "name": "Servo parts"
+        },
+        {
+          "name": "X-Large Servos"
+        }
+      ]
+    },
+    {
+      "name": "FPV ANDS TELEMETRY",
+      "children": [
+        {
+          "name": "Antennas &amp; Cables"
+        },
+        {
+          "name": "Camera"
+        },
+        {
+          "name": "Gimbal"
+        },
+        {
+          "name": "Màn hình cho FPV"
+        },
+        {
+          "name": "OSD"
+        },
+        {
+          "name": "Telemetry"
+        },
+        {
+          "name": "Video Tx/Rx"
+        }
+      ]
+    },
+    {
+      "name": "PIN VÀ PHỤ KIỆN",
+      "children": [
+        {
+          "name": "Lipo 1s"
+        },
+        {
+          "name": "Lipo 2s"
+        },
+        {
+          "name": "Lipo 3s"
+        },
+        {
+          "name": "Lipo 4s"
+        },
+        {
+          "name": "Lipo 5s"
+        },
+        {
+          "name": "Lipo 6s"
+        },
+        {
+          "name": "Pin cho tx"
+        },
+        {
+          "name": "Pin nimh"
+        },
+        {
+          "name": "Phụ kiện"
+        },
+        {
+          "name": "Pin LiFe"
+        }
+      ]
+    },
+    {
+      "name": "SẠC PIN VÀ PHỤ KIỆN",
+      "children": []
+    },
+    {
+      "name": "TX AND RX",
+      "children": [
+        {
+          "name": "Tx & rx"
+        },
+        {
+          "name": "Phụ kiện tx-rx"
+        }
+      ]
+    },
+    {
+      "name": "CÁNH QUẠT",
+      "children": [
+        {
+          "name": "Cánh 3d"
+        },
+        {
+          "name": "Cánh bay jet"
+        },
+        {
+          "name": "Cánh cho máy nổ"
+        },
+        {
+          "name": "Cánh thuận nghịch"
+        },
+        {
+          "name": "Cánh slow fly"
+        }
+      ]
+    },
+    {
+      "name": "DÂY NỐI VÀ JACK CẮM",
+      "children": []
+    },
+    {
+      "name": "DỤNG CỤ VÀ VẬT LIỆU LÀM MÁY BAY",
+      "children": [
+        {
+          "name": "Dụng cụ cầm tay"
+        },
+        {
+          "name": "Vật liệu làm máy bay"
+        }
+      ]
+    },
+    {
+      "name": "HÀNG CŨ & HÀNG THANH LÝ",
+      "children": []
+    },
+    {
+      "name": "PHỤ KIỆN MÁY NỔ",
+      "children": []
+    },
+    {
+      "name": "Ô TÔ - XE MÁY",
+      "children": [
+        {
+          "name": "Tỉ lệ 1:10"
+        },
+        {
+          "name": "Tỉ lệ 1:16"
+        },
+        {
+          "name": "Tỉ lệ 1:24"
+        },
+        {
+          "name": "Car parts"
+        },
+        {
+          "name": "Car accessories"
+        }
+      ]
+    }
+  ]
+}

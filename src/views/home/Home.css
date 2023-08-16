@@ -1,0 +1,473 @@
+.Container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Index {
+  width: 75vw;
+  display: flex;
+  height: auto;
+  margin-top: 10px;
+}
+
+.CoreIndex {
+  width: 24vw;
+  margin-right: 3vw;
+  margin-left: 10px;
+}
+
+.CoreIndex .Text {
+  width: 24vw;
+  font-size: 1.7rem;
+  background-color: #e76d66;
+  height: 60px;
+  padding: 15px;
+  color: white;
+}
+
+.CoreIndex > ul {
+  height: auto;
+  width: 24vw;
+  border: 1px solid rgba(0, 0, 0, 0.162);
+  position: relative;
+}
+
+.CoreIndex > ul > li {
+  height: 32px;
+  list-style: none;
+  padding: 0px 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.CoreIndex > ul > li:hover {
+  color: #31beff;
+}
+
+.CoreIndex > ul > li .Triangle {
+  font-size: 0.5rem;
+  rotate: 270deg;
+}
+
+.HoverList {
+  position: absolute;
+  color: black;
+  left: 100%;
+  border-radius: 5px;
+  margin-left: 1px;
+  top: 0px;
+  background-color: white;
+  width: 300px;
+  height: auto;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.386);
+  display: none;
+  list-style: none;
+  z-index: 1;
+}
+
+.HoverList > li {
+  width: 300px;
+  height: auto;
+  padding: 10px 10px;
+  font-size: 1.2rem;
+}
+
+.HoverList li:hover {
+  color: #31beff;
+  animation: changeColor 0.5s;
+}
+
+.CoreIndex > ul > li:hover {
+  .HoverList {
+    display: block;
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    color: black;
+  }
+  100% {
+    color: #31beff;
+  }
+}
+
+.Swiper {
+  width: 48vw;
+  min-width: 675px;
+  background-color: aqua;
+  height: 560px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.swiper-slide > .Img {
+  width: 48vw;
+  min-width: 675px;
+  height: 560px;
+}
+
+.Part {
+  width: 75vw;
+  height: auto;
+  margin-top: 50px;
+}
+
+.Title {
+  width: 75vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.228);
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.Type {
+  width: 75vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+}
+
+.Type > .Button {
+  width: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 0px 2px;
+  cursor: pointer;
+}
+
+.Type > .Button:hover {
+  color: #31beff;
+  animation: changeColor 0.5s;
+  background-color: rgb(230, 230, 230);
+  border-radius: 4px;
+  border-style: none;
+}
+
+.Products {
+  width: 75vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  justify-content: space-around;
+}
+
+.Product {
+  width: 10vw;
+  min-width: 200px;
+  height: 380px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.Product:hover {
+  border: 1px solid rgba(0, 0, 0, 0.133);
+  .ButtonHover {
+    display: flex;
+  }
+}
+
+.Product > .Img {
+  width: 8vw;
+  height: 8vw;
+  min-width: 150px;
+  min-height: 150px;
+  background-color: aquamarine;
+  top: 25px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.Product > .Name {
+  position: absolute;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.Product > .Name:hover {
+  color: #31beff;
+  animation: changeColor 0.5s;
+}
+
+.Product > .Price {
+  position: absolute;
+  margin-top: 150px;
+  color: red;
+  font-size: 1.1rem;
+}
+
+.Product > .Rate {
+  position: absolute;
+  margin-top: 220px;
+  font-size: 1.1rem;
+  display: flex;
+}
+
+.Product > button {
+  position: absolute;
+  bottom: 5px;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(74, 74, 74);
+  color: white;
+  cursor: pointer;
+  border-style: none;
+}
+
+.Product > button:hover {
+  background-color: #6acdfb;
+  animation: changeBack 0.5s;
+}
+
+.ButtonHover {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: none;
+}
+
+.ButtonHover > .Eyes {
+  position: absolute;
+  top: -60px;
+  left: 30px;
+  z-index: 2;
+  width: 40px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.384);
+  border-style: none;
+  color: rgba(255, 255, 255, 0.716);
+  cursor: pointer;
+  animation: Eyes 0.5s;
+}
+
+.outside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.309);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContainerModal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.197);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+}
+
+.modal {
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  z-index: 5;
+  border-radius: 5px;
+  display: flex;
+  position: relative;
+}
+
+.modal > .Picture {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Picture > img {
+  width: 250px;
+}
+
+.modal > .in4 {
+  width: 500px;
+  padding: 50px;
+}
+
+.in4 > .name {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.in4 > .rate {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.in4 > .rate .icon {
+  font-size: 2rem;
+}
+
+.in4 > .price {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.in4 > .id {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.in4 > .quantity {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity > .Number {
+  width: 40px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.quantity > .Number:focus {
+  outline: none;
+}
+
+.Down {
+  border-radius: 50%;
+  background-color: #ccc;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.Up {
+  border-radius: 50%;
+  background-color: #ccc;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.Order {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(74, 74, 74);
+  color: white;
+  cursor: pointer;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Order:hover {
+  background-color: #6acdfb;
+  animation: changeBack 0.5s;
+}
+
+.Close {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 3px solid white;
+  box-shadow: 0px 0px 5px black;
+  position: absolute;
+  right: -20px;
+  top: -20px;
+}
+
+@keyframes Eyes {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 30px;
+  }
+}
+
+.ButtonHover > .Heart {
+  position: absolute;
+  top: 50px;
+  z-index: 1;
+  width: 35px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(74, 74, 74);
+  border-radius: 5px;
+  border-style: none;
+  /* animation: Heart 1s; */
+}
+
+/* @keyframes Heart {
+  0% {
+    margin-left: -50px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+} */
+
+.ButtonHover > .Heart:hover {
+  background-color: #6acdfb;
+  animation: changeBack 0.5s;
+}
+
+@keyframes changeBack {
+  0% {
+    background-color: rgb(74, 74, 74);
+  }
+  100% {
+    background-color: #6acdfb;
+  }
+}

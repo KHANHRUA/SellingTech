@@ -1,0 +1,125 @@
+{
+  "data": {
+    "type": [
+      {
+        "name": "MÁY BAY CÁNH BẰNG",
+        "category": [
+          {
+            "name": "Máy bay cho người mới tập chơi"
+          },
+          {
+            "name": "Máy bay 3D"
+          },
+          {
+            "name": "Máy bay dành cho FPV"
+          }
+        ],
+        "product": [
+          {
+            "name": "Máy Bay Ripper R690 - PNP",
+            "url": "https://pos.nvncdn.net/585eb4-8380/ps/20211112_CfbtxZETasz4XIy3mYdOhzC8.jpg",
+            "price": "2,990,000",
+            "rate": 8
+          },
+          {
+            "name": "Máy Bay Ripper R690",
+            "url": "https://pos.nvncdn.net/585eb4-8380/ps/20211112_B22z4U4a4O737NVbRJmoCke7.jpg",
+            "price": "1,699,000",
+            "rate": 3
+          },
+          {
+            "name": "Nam Châm Chữ Nhật 10*5*2Mm(10 Chiếc)",
+            "price": "15,000",
+            "url": "https://pos.nvncdn.net/585eb4-8380/ps/20200614_9qFSlBwZCdvxc4nKsqdm8TnR.jpg",
+            "rate": 4
+          },
+          {
+            "name": "Nam Châm Tròn 1*10Mm(10 Chiếc)",
+            "price": "10,000",
+            "url": "https://pos.nvncdn.net/585eb4-8380/ps/20200614_jfPB0ouINa7UP4i7RVmseXR2.jpg",
+            "rate": 1
+          },
+          {
+            "name": "Càng Gập Đơn 140Mm",
+            "price": "150,000",
+            "url": "https://pos.nvncdn.net/585eb4-8380/ps/20200422_KsxsnTuNCphDsyMToOE86gCc.jpg",
+            "rate": 2
+          },
+          {
+            "name": "Càng Gập Đơn 150Mm",
+            "url": "https://pos.nvncdn.net/585eb4-8380/ps/20200422_X0IyygceTHekyuIlRDq9Gtgh.jpg",
+            "price": "160,000",
+            "rate": 6
+          }
+        ]
+      },
+      {
+        "name": "MÁY BAY 4 CÁNH, 6 CÁNH",
+        "category": [
+          {
+            "name": "PNP/BNF/RTF drone"
+          },
+          {
+            "name": "Frame kit"
+          },
+          {
+            "name": "Frame part"
+          },
+          {
+            "name": "Motor"
+          },
+          {
+            "name": "ESC"
+          },
+          {
+            "name": "Cánh quạt thuận nghịch"
+          },
+          {
+            "name": "Mạch bay multi"
+          },
+          {
+            "name": "Phụ kiện multicopter"
+          }
+        ],
+        "product": [
+          {
+            "name": "Máy Bay Geprc Cinego HD 4s - Rx",
+            "url": "https://pos.nvncdn.net/585eb4-8380/ps/20230814_hndNxfKikH.jpeg",
+            "price": "6,400,000",
+            "rate": 7
+          },
+          {
+            "name": "Máy Bay Geprc Cinego HD 6s - Rx Tbs",
+            "url": "https://pos.nvncdn.net/585eb4-8380/ps/20230814_hndNxfKikH.jpeg",
+            "price": "6,800,000",
+            "rate": 9
+          },
+          {
+            "name": "Holybro SiK Telemetry Radio V3",
+            "price": "1,450,000",
+            "url": "https://pos.nvncdn.net/585eb4-8380/ps/20230812_rQCgWbxAEs.jpeg",
+            "rate": 10
+          },
+          {
+            "name": "Khung Găn Camera O3 LHCXRC Bằng",
+            "price": "680,000",
+            "url": "https://pos.nvncdn.net/585eb4-8380/ps/20230812_XArPwiVex2.jpeg",
+            "rate": 2
+          },
+          {
+            "name": "Khung Máy Bay Iflight IH3 Dành Cho O3",
+            "price": "720,000",
+            "url": "https://pos.nvncdn.net/585eb4-8380/ps/20230805_pwiYYhaTnD.jpeg",
+            "rate": 3
+          },
+          {
+            "name": "Tháp Mạch Mamba F405 Mk2 V2 + Điều",
+            "url": "https://pos.nvncdn.net/585eb4-8380/ps/20230804_l4ZhFIIhoe.jpeg",
+            "price": "1,815,000",
+            "rate": 0
+          }
+        ]
+      }
+    ]
+  }
+}
